@@ -45,7 +45,7 @@ const CHANNELS = [
     examples: "\"Mejores herramientas de X\", rankings editoriales",
     jerarquia: "Nivel 2 — Alta confianza",
     questions: [
-      { id: "found", text: "¿Has buscado en Google y en motores de IA qué listas existen para tu categoría (\"mejores herramientas de X\", \"mejores agencias de Y\")?" },
+      { id: "found", text: "¿Has buscado en Google qué listas existen para tu categoría (\"mejores herramientas de X\", \"mejores agencias de Y\")?" },
       { id: "appears", text: "¿Tu marca aparece en al menos una de esas listas?" },
       { id: "ficha", text: "¿Tienes preparada una ficha de marca con nombre exacto, descripción, resultados y diferenciación lista para enviar a editores?" },
     ],
@@ -446,6 +446,9 @@ export default function App() {
                 }}>
                   Descargar plan de acción ↓
                 </button>
+                <p style={{ color: "#a8bccf", fontSize: 12, marginTop: 10, marginBottom: 0 }}>
+                  Se descarga como HTML — ábrelo en tu navegador e imprímelo como PDF.
+                </p>
               </div>
             )}
           </div>
